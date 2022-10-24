@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+
+    <title>Kontakt</title>
+</head>
+<body>
+
+  <nav>
+      <a href="index.html">Home</a>
+      <a href="kurser.html">Kurser</a>
+      <div class="dropdown">
+        <button class="dropbtn">Albums
+        </button>
+        <div class="dropdown-content">
+          <a href="bilder.html">bilder</a>
+          <a href="bilder1.html">Bilder1</a>
+          <a href="bilder2.html">Bilder2</a>
+        </div>
+      </div> 
+      <a href="kontakt.html">Kontakt</a>
+      <a href="om.html">om</a>
+  </nav>
+ <main>
+    <br><br>
+    <h1>Kontaktförmulär:</h1> <br><br><br>
+        
+    <div class="kontaktDiv">
+        <fieldset>
+    <legend>Kontaktförmulär</legend>
+        <div class="items">
+            <label for="namn">Namn:</label>
+            <input type="text"  placeholder="Förnamn Efternamn"><br><br>
+            <label for="lname">E-postadress:</label>
+            <input type="text"  placeholder="namn@domän.se"><br><br>
+        </div>
+
+        <div class="items">
+            <label for="yrke">Yrke:</label> 
+                <select>
+                <option value="Webbutvecklare">Webbutvecklare</option>
+                <option value="webbdesigner">webbdesigner</option>
+                <option value="projektledare ">projektledare </option>
+                <option value="JavaScriptUtvecklare">JavaScriptUtvecklare"</option>
+                <option value="Full-stack-Utvecklare">Full-stack-Utvecklare"</option>
+                </select><br><br>
+        </div>
+
+        <div class="items">
+            <label for="Nyhetsbrev">Nyhetsbrev:</label>
+            <input type="checkbox"> <br><br>
+        </div>
+
+            <div class="items">
+               <label for="Anställd">Anställd:</label>
+               <input type="radio" id="ja" name="drone" value="ja" checked>
+               <label for="ja">ja</label>
+               <input type="radio" id="nej" name="drone" value="nej"checked>
+               <label for="nej">nej</label>
+            </div>
+
+            <div class="items">
+                <p>Meddelande:</p>
+                <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+                <button type="button" >Skicka!</button>
+                <button type="button" onClick="window.location.reload();">Nollställa!</button>
+            </div>
+            
+    </fieldset> 
+ 
+    </div>
+
+ </main>
+
+
+
+      <footer>
+        <p class="item1">Webbutveckling I</p>
+        <h3 class="item">2022-10-10</h3>
+        <p class="item">Mahmoud Khleif </p>
+        <a href="mailto:Mahmoud89ah@gmail.com" class="item" style="text-decoration: none; color: aliceblue;" >Email</a>
+        <a href="index.html" class="item" style="text-decoration: none; color: aliceblue;">Back to StartSida</a>
+      </footer> 
+
+</body>
+</html>
